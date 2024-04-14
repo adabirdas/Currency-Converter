@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CURRENCY CONVERTER</h1>
+    <div class="box">
+        <input type="number" placeholder=" add exchange amount" class="input">
+        <div class="main">
+            <div class="flag" id="one">
+                <img id="flagimg" src="https://flagsapi.com/US/shiny/64.png"alt="bad network issue">
+                <P class="text"id="fromtext">FROM</P>
+                <select name="from" id="from">   
+                    
+                </select>
+
+            </div>
+
+            <div class="flag"id="two">
+                <img id="flagimg2"src="https://flagsapi.com/IN/shiny/64.png"alt="bad network issue">
+                <select name="to" id="to">
+                 
+
+                </select>
+                <P class="text" id="totext">TO</P>
+
+            </div>
+            
+        </div>
+        <img  src="transfer.png" class="imge" alt="exchange">
+        <button class="button">
+            GET EXCHANGE RATE
+
+        </button>
+        <div class="massage">
+            <p id="innertext">hello</p>
+
+        </div>
+
+    </div>
+<script src="country-code-currency.js"></script>    
+<script src="script.js"></script>
+</body>
+ 
+</html>
